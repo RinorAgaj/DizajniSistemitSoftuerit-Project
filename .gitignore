@@ -1,1 +1,16 @@
-.vs
+# Visual Studio files
+.vs/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# MacOS system files
+.DS_Store
+
+# Ignore build output directories (if applicable)
+build/
+dist/
