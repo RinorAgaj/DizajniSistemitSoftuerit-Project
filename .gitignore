@@ -14,3 +14,5 @@ logs/
 # Ignore build output directories (if applicable)
 build/
 dist/
+Lab-Project.Server/obj/Debug/net8.0/Lab-Project.Server.AssemblyInfo.cs
+Lab-Project.Server/obj/Debug/net8.0/Lab-Project.Server.AssemblyInfoInputs.cache
