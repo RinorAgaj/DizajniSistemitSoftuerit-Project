@@ -7,3 +7,4 @@ This directory contains all the documentation for the project. It is organized i
 - `DDD`: Contains the Detailed Design Document (DDD) and related diagrams.
 - `diagrams`: Contains all draw.io files
 - `image_files`: Contains all the pgn and jpg files (zakonisht screenshots te draw.io files)
+  -DONE
