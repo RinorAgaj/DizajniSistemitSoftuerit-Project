@@ -1,11 +1,21 @@
+
 # Conceptual Model
 
 This folder contains all files related to the conceptual model of the system. These models focus on defining the relationships and states of the key entities in the system, offering an abstract view of the system's data structure.
 
 ## Purpose
-The conceptual model serves as a blueprint for understanding the relationships between entities in the system and acts as a foundation for database design and system development. By visualizing entities and their interactions, the model ensures clarity in the structure and functionality of the system. It helps identify key dependencies, streamline processes, and facilitate communication between team members during development.
+The conceptual model serves as a blueprint for understanding the relationships between entities in the system and acts as a foundation for database design and system development. By visualizing entities and their interactions, the model ensures clarity in the structure and functionality of the system.
 
-## Key Entities and Descriptions
+## Key Entities and Descriptions 1
+- **Client**: Represents a customer using the system, with attributes such as name and email, and relationships to orders and notifications.
+- **Notification**: Represents messages or alerts sent to clients, containing information about the type of notification and its recipient.
+- **Product**: Represents items available for purchase, with details such as name, price, and category.
+- **Category**: Defines classifications for products, grouping them into logical categories.
+- **Order**: Tracks purchase transactions made by clients, including order date and details.
+- **Cart**: Represents a shopping cart linked to a client, containing multiple items.
+- **CartItem**: Links products to the cart, specifying quantities and associated product details.
+
+## Key Entities and Descriptions 2
 - **Client**: Represents a customer using the system. Attributes include:
   - `Id`: Unique identifier for the client.
   - `Name`: Full name of the client.
@@ -40,6 +50,7 @@ The conceptual model serves as a blueprint for understanding the relationships b
   - `ProductId`: Foreign key linking to a product.
   - `Quantity`: Number of units of the product.
   - Relationship: A cart item belongs to one cart and one product.
+
 
 ## Contents
 - **ConceptualModel.drawio**: The source file for the UML class diagram, editable using draw.io or compatible tools.
